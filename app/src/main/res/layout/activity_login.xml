@@ -6,34 +6,29 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".LoginActivity"
-        android:background="@color/white"
-        android:padding="20dp"
+        android:background="@drawable/fundo"
+
+        android:padding="0dp"
 >
 
-    <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" app:srcCompat="@drawable/captura_de_tela_2024_02_01_212114"
-            android:id="@+id/imageView2"
-            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="40dp"/>
     <TextView
             android:text="E-mail"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/titulo_email"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:textSize="20dp"
             android:fontFamily="@font/titilliumweb_light"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0" app:layout_constraintTop_toBottomOf="@+id/imageView2"
-            android:layout_marginTop="68dp"/>
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintTop_toBottomOf="@+id/imageView8"/>
     <TextView
             android:text="Senha"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/titulo_senha"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:textSize="20dp"
             android:fontFamily="@font/titilliumweb_light"
             app:layout_constraintTop_toBottomOf="@+id/campo_email"
@@ -89,6 +84,23 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/campo_senha"
             android:layout_marginTop="40dp"/>
+
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="294dp"
+            app:srcCompat="@drawable/fundo"
+            android:id="@+id/imageView8"
+            tools:layout_editor_absoluteX="-206dp"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="16dp"/>
+
+
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" app:srcCompat="@drawable/vector" android:id="@+id/imageView3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="112dp" app:layout_constraintHorizontal_bias="0.461"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
